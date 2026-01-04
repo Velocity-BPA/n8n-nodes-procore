@@ -1,0 +1,33 @@
+# Source files
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# Development
+.git/
+.github/
+.vscode/
+.idea/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Documentation source
+docs/
+
+# Keep dist and license files
+!dist/
+!LICENSE
+!COMMERCIAL_LICENSE.md
+!LICENSING_FAQ.md
+!README.md
